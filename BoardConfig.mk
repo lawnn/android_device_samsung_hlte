@@ -25,6 +25,9 @@ TARGET_UNIFIED_DEVICE := true
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
+# Kernel
+TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig 
+
 # Bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := $(LOCAL_PATH)/bluetooth/vnd_hlte.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
